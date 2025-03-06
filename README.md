@@ -62,3 +62,23 @@ print(hitung_biaya_pengiriman(6, 15, express=True, member=True))  # Contoh kasus
 PS C:\Users\Haikal LNH> & "C:/Users/Haikal LNH/AppData/Local/Programs/Python/Python313/python.exe" "e:/program paket sederhana.py"
 38700
 ```
+## Penjelasan Penggunaan
+Misalkan kita menghitung biaya untuk paket dengan spesifikasi berikut:
+
+ -Berat: 6 kg (melebihi 5 kg, jadi ada tambahan Rp 5.000)
+
+ -Jarak: 15 km (lebih dari 10 km, jadi ada tambahan Rp 8.000)
+
+ -Layanan Express (tambahan Rp 20.000)
+
+ -Member (dapat diskon 10%)
+
+Perhitungan:
+
+1. Biaya dasar: Rp 10.000
+
+2. Tambahan berat: Rp 5.000 → Rp 15.000
+3. Tambahan jarak: Rp 8.000 → Rp 23.000
+4. Tambahan express: Rp 20.000 → Rp 43.000
+5. Diskon 10% untuk member: 10% dari Rp 43.000 = Rp 4.300
+6. Total biaya setelah diskon: Rp 43.000 - Rp 4.300 = Rp 38.700
