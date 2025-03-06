@@ -9,7 +9,25 @@ Jika pelanggan memilih layanan pengiriman express, maka akan dikenakan tambahan 
 Buatlah sebuah fungsi dalam Python yang dapat menghitung total biaya pengiriman berdasarkan aturan tersebut, dengan parameter berat paket, jarak pengiriman, jenis pengiriman (biasa atau express), serta status keanggotaan pelanggan (member atau non-member).
 
 ## Flowchart
+```mermaid
+graph TD;
+    A[Mulai] --> B[Biaya dasar Rp 10.000]
+    B --> C{Berat > 5 kg?}
+    C -- Ya --> D[Tambahkan Rp 5.000]
+    C -- Tidak --> E
+    D --> E{Jarak > 10 km?}
+    E -- Ya --> F[Tambahkan Rp 8.000]
+    E -- Tidak --> G
+    F --> G{Express?}
+    G -- Ya --> H[Tambahkan Rp 20.000]
+    G -- Tidak --> I
+    H --> I{Member?}
+    I -- Ya --> J[Diskon 10%]
+    I -- Tidak --> K[Total Biaya]
+    J --> K
+    K --> L[Selesai]
 
+```
 
 # Demo program
 
