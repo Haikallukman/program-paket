@@ -8,6 +8,9 @@ Jika pelanggan memilih layanan pengiriman express, maka akan dikenakan tambahan 
 
 Buatlah sebuah fungsi dalam Python yang dapat menghitung total biaya pengiriman berdasarkan aturan tersebut, dengan parameter berat paket, jarak pengiriman, jenis pengiriman (biasa atau express), serta status keanggotaan pelanggan (member atau non-member).
 
+## Flowchart
+
+
 # Demo program
 
 ```python
