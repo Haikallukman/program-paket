@@ -32,4 +32,12 @@ def hitung_biaya_pengiriman(berat, jarak, express=False, member=False):
         biaya *= 0.9  # Diskon 10%
     
     return int(biaya)  # Konversi ke integer untuk hasil biaya dalam rupiah
+
+# Contoh penggunaan
+print(hitung_biaya_pengiriman(6, 15, express=True, member=True))  # Contoh kasus
+```
+## Output Program
+```
+PS C:\Users\Haikal LNH> & "C:/Users/Haikal LNH/AppData/Local/Programs/Python/Python313/python.exe" "e:/program paket sederhana.py"
+38700
 ```
